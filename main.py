@@ -2,7 +2,7 @@ import json
 import re
 
 
-class Netflix:
+class SeriesManagementPlatform:
 
     def __init__(self):
         self.series = []
@@ -290,5 +290,5 @@ class Netflix:
 
 
 if __name__ == "__main__":
-    program = Netflix()
+    program = SeriesManagementPlatform()
     program.main()
